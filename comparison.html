@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latitude - Landing Page</title>
+    <title>Comparison</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Latitude</a>
+        <a class="navbar-brand" href="index.html">HOME</a>
         <button id="#nav-select" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="temp.html">Maximum Temperature</a>
-                        <a class="dropdown-item" href="humidity.html">Humitidy</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
                         <a class="dropdown-item" href="cloud.html">Cloudiness</a>
                         <a class="dropdown-item" href="wind.html">Wind Speed</a>
                     </div>
@@ -47,41 +47,36 @@
         <div class="box">
             <h2>Comparison: Latitude vs. X</h2>
             <hr>
-            <p>Click any plot to get an in-depth analysis.</p>
-            <div class="row" style="padding-bottom: 30px">
-                <div class=col-6>
+            <section>Click any plot to get an in-depth analysis.</section>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
                     <h3>vs. Max Temperature</h3>
+                    <figure><a href="temp.html">
+                            <img class="panel" src="Resources/assets/images/Fig1.png" alt="TemperatureMap">
+                        </a></figure>
                 </div>
-                <div class=col-6>
+                <div class="col-xs-12 col-md-6">
                     <h3>vs. Humidity</h3>
+                    <figure> <a href="humidity.html">
+                            <img class="panel" src="Resources/assets/images/Fig2.png" alt="HumidityMap">
+                        </a></figure>
                 </div>
             </div>
-            <div class="row" style="padding-bottom: 30px">
-                <div class=col-6> <a href="temp.html">
-                        <img class="panel" src="Resources/assets/images/Fig1.png" alt="TemperatureMap">
-                    </a></div>
-                <div class=col-6> <a href="humidity.html">
-                        <img class="panel" src="Resources/assets/images/Fig2.png" alt="HumidityMap">
-                    </a></div>
-            </div>
-            <div class="row" style="padding-bottom: 30px">
-                <div class=col-6>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
                     <h3>vs. Cloudiness</h3>
+                    <figure> <a href="cloud.html">
+                            <img class="panel" src="Resources/assets/images/Fig3.png" alt="CloudMap">
+                        </a></figure>
                 </div>
-                <div class=col-6>
+                <div class="col-xs-12 col-md-6">
                     <h3>vs. Wind Speed</h3>
+                    <figure> <a href="wind.html">
+                            <img class="panel" src="Resources/assets/images/Fig4.png" alt="WindMap">
+                        </a></figure>
                 </div>
-            </div>
-            <div class="row" style="padding-bottom: 30px">
-                <div class=col-6> <a href="cloud.html">
-                        <img class="panel" src="Resources/assets/images/Fig3.png" alt="CloudMap">
-                    </a></div>
-                <div class=col-6> <a href="wind.html">
-                        <img class="panel" src="Resources/assets/images/Fig4.png" alt="WindMap">
-                    </a></div>
             </div>
         </div>
-
     </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -89,7 +84,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
-   
+
 </body>
 
 </html>
