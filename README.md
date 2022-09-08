@@ -9,6 +9,21 @@ In this respository, there is a Resources folder and a handful of HTML documents
 
 One of the emphases of this challenge is the responsive layout and Navbar. Bootstrap is kind enough to take care of these elements for me. As the viewport changes, the website adapts to look its best for the user.
 
+#Visuals
+
+Home Page
+
+![image](https://user-images.githubusercontent.com/107419765/189196045-f269ea39-2e52-474c-82a2-df5769d2b0a4.png)
+
+Comparison Page
+
+![image](https://user-images.githubusercontent.com/107419765/189196153-0a06ae89-592b-42f4-929e-71442e04da52.png)
+
+Smaller Screen Comparison Page: note how the Navbar's appearance has changed.
+
+![image](https://user-images.githubusercontent.com/107419765/189196279-5db174a1-6a5d-4227-995a-bccf3d3457b2.png)
+
+
 # Usage
 
 While the content is rather specific, the markup and styling can be adapted for any use. The methodical approach to the markup gives anyone looking to get into web design a simple template. Navigation is one of the most important elements of a website and the Bootstrap Navbar works wonders. The CSS is not incredibly in-depth, but does take advantage tag and class styling as well as how the browser reads the underlying code to display.
